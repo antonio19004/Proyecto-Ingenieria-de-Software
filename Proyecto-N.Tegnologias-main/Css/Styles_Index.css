@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #EDE7E7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 400px;
+    
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+
+    
+}
+
+.container form {
+    padding: 20px; 
+
+   
+}
+
+.container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    
+}
+
+.container span {
+    font-size: 14px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.container input {
+    
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+
+}
+/* 
+.container button {
+    background-color: #512da8;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.container button:hover {
+    background-color: #421c82;
+} */
+
+
+
+ /* Estilo de botón para las etiquetas <a> */
+ .container button-like-link {
+    display: inline-block;
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #fff; /* Color del texto */
+    text-decoration: none; /* Elimina la subrayado predeterminado del enlace */
+    padding: 10px 20px; /* Espacio interno del botón */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Efecto de transición al pasar el cursor */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+.container button-like-link:hover {
+    background-color: #2e89ea; /* Color de fondo cuando se pasa el cursor */
+}

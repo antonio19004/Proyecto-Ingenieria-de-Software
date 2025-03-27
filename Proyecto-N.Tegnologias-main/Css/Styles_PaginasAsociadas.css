@@ -1,0 +1,66 @@
+/* Styles_PaginasAsociadas.css */
+
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+
+
+#banner h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: azure;
+    margin: 10px;
+    margin-inline-end: 20px;
+}
+
+/* Empresas Asociadas */
+#empresas-asociadas .card {
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#empresas-asociadas .card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#empresas-asociadas .card-title {
+    text-align: center;
+    margin-top: 15px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(43, 42, 42);
+}
+
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 4rem;
+
+}
+
+.navbar {
+    background-color: rgba(4, 106, 31, 0.836); 
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+}
